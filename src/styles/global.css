@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+html {
+    background-color: white;
+    overflow-x: hidden;
+}
+body {
+    padding-top: 76px;
+    overflow-x: hidden;
+}
+.navbar {
+    padding: .25rem 1rem;
+    background-color: #9c7ebc;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+    background-color: #a0cf67 !important;
+}
+
+.main-content {
+    min-height: calc(100vh - 120px);
+}
+footer {
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+    background-color: #e1d0f4;
+    color: rgb(104, 101, 101);
+    height: 50px;
+}
+.large-logo {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+.large-massage-image {
+    margin: auto;
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+.home-image {
+    padding: none;
+}
+.green-stripe {
+    width: 100%;
+    height: 100px;
+    background-color: #a0cf67;
+}
+.green-stripe-info {
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    font-size: 22px;
+    font-family: 'Poiret One', cursive;
+    margin-bottom: 0;
+}
+.home-container {
+    padding: 20px;
+}
+.home-image-outer-container {
+    width: 100%;
+    padding: 15px;
+}
+.home-image-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .home-image-small {
+    display: block;
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    border-radius: 50%;
+  }
+  
+  .home-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .home-image-container:hover .home-image-overlay {
+    height: 100%;
+  }
+  
+  .home-quote {
+    color: #9c7ebc;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+  }
+  .home-massage-info {
+      padding: 20px;
+      text-align: center;
+      font-family: 'Poiret One', cursive;
+      font-size: 20px;
+  }
+  .find-out-more {
+      margin: 10px auto 20px auto;
+      display: block !important;
+      background-color: #a0cf67 !important;
+      color: white;
+      border: 1px solid white !important;
+      width: 30%;
+  }
+  .coming-soon-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .get-in-touch {
+      background-color: #9c7ebc;
+      width: 100%;
+      color: white;
+      padding: 20px 50px;
+  }
+  .contact-header{
+      margin-bottom: 15px;
+      border-bottom: 1px solid white;
+  }
+ 
+  .contact-icon, .contact-info {
+      display: inline-block;
+  }
+  .contact-info {
+      margin-left: 5px;
+  }
+
+  .external-link, .external-link:visited {
+      color: #c2f484;
+  }
+  .external-link:hover {
+    color: #a0cf67;
+}
+.external-link:active {
+    color: #c2f484;
+}
+#about-me-button-link {
+    margin-left: 0;
+}
+ 
+
+
+
+
+/* Responsive behaviour for mobile devices */
+  @media all and (max-width: 767px){ 
+    .btn-outline-success{
+        width: 100%;
+        margin-top: 5px;
+    }
+    #reikiImage {
+        display: none;
+    }
+    .large-logo {
+        height: 200px;
+    }
+    .large-massage-image {
+        height: 250px;
+    }
+    .home-image {
+        margin: 0 10px;
+    }
+    .green-stripe-container {
+        padding: 15px;
+    }
+    .green-stripe {
+        margin: 0 10px;
+        padding: 20px;
+    }
+    .green-stripe-info {
+        margin-bottom: 0;
+    }
+    footer {
+        font-size: 9px;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .find-out-more {
+        width: 95%;
+    }
+    .home-image-small {
+        border-radius: 50%;
+    }
+}
+/* Responsive behaviour for tablets and smaller laptops */
+@media all and (max-width: 1320px){ 
+    
+    .large-logo, .large-massage-image {
+        height: 200px;
+    }
+    .green-stripe {
+        height: auto;
+        padding: 0 20px;
+    }
+    .green-stripe-info {
+        line-height: 30px;
+        font-size: 18px;
+        padding: 20px;
+    }
+    .home-image-small {
+        height: auto;
+    }
+    .home-massage-info {
+        font-size: 16px;
+    }
+    .home-quote {
+        font-size: 14px;
+    }
+    .find-out-more {
+        width: 90%;
+    }
+}
+

@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout" 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/global.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeImages from "../components/homeImages"
 import GreenStripe from "../components/greenStripe"
 import HomeContainer from "../containers/homeContainer"

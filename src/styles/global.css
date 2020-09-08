@@ -161,10 +161,6 @@ footer {
     background-color: #a0cf67 !important;
 }
  
-
-
-
-
 /* Responsive behaviour for mobile devices */
   @media all and (max-width: 767px){ 
     .btn-outline-success{

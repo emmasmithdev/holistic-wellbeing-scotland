@@ -14,11 +14,6 @@ body {
 .navbar-light .navbar-nav .nav-link {
     color: white !important;
 }
-.btn-outline-success {
-    color: white !important;
-    border-color: white !important;
-    background-color: #a0cf67 !important;
-}
 
 .main-content {
     min-height: calc(100vh - 120px);
@@ -158,6 +153,12 @@ footer {
 }
 #about-me-button-link {
     margin-left: 0;
+}
+
+.btn-outline-success {
+    color: white !important;
+    border-color: white !important;
+    background-color: #a0cf67 !important;
 }
  
 

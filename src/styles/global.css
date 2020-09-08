@@ -155,7 +155,7 @@ footer {
     margin-left: 0;
 }
 
-.btn-outline-success {
+.btn-outline-success, .search-button {
     color: white !important;
     border-color: white !important;
     background-color: #a0cf67 !important;
@@ -163,7 +163,7 @@ footer {
  
 /* Responsive behaviour for mobile devices */
   @media all and (max-width: 767px){ 
-    .btn-outline-success{
+    .btn-outline-success, .search-button{
         width: 100%;
         margin-top: 5px;
     }

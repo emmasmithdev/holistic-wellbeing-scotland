@@ -158,7 +158,7 @@ footer {
 
 .btn-outline-success, .search-button {
     color: white !important;
-    border-color: white !important;
+    border: 1px solid white !important;
     background-color: #a0cf67 !important;
 }
 .search-button {

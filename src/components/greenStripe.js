@@ -8,7 +8,7 @@ export default function GreenStripe() {
             <p className="green-stripe-info">Holistic Wellbeing was established in 2012, by Laura Lawson.</p>
             <p className="green-stripe-info">
             Our Complementary Therapists are fully insured, highly qualified and 
-            committed to providing the very best professional, high-quality treatments.
+            committed to providing the very best professional treatments.
             </p>
         </div>
         </div>

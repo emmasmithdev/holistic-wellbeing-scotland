@@ -36,7 +36,7 @@ export default function GetInTouch() {
             </div>
             </div>
             <div class="col-md-6 col-sm-12">
-            <h3 className="contact-header">About Me</h3>
+            <h3 className="contact-header">About Laura</h3>
             <p>Laura is an experienced Complementary Therapist with over 10 years experience in the health and wellness sector.
                 She takes pride in providing the very best quality treatments for all her clients at incredibly competitive prices...
             </p>

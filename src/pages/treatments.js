@@ -106,26 +106,7 @@ export default function Treatments() {
                 </div>
         </div>
       <div class="col-md-12 menu-column-header mother-baby-treatments">
-      <div class="row treatment-item">
-        <div class="col-lg-4 col-md-5 col-sm-12 no-mobile-image">
-            <img src={Baby} alt="Baby massage" className="baby-image"/>
-            </div>
-            <div class="col-lg-8 col-md-7 col-sm-12">
-            <h4>Baby Massage</h4>
-            <div class="price">
-              <p>4 private weekly 1 hour sessions - £100*<br/>(Group sessions are possible, up to 6 mothers and babies at a time.)</p>
-            </div>
-            <p>If you’ve recently experienced the joy of having a baby, there will undoubtedly be a lot of 
-              ideas running through your head as to how to minimise the stress and pain your child experiences 
-              in their first few months of life. One of the most effective techniques for improving the health 
-              of your child is baby massage. In fact, learning special techniques on your infant can have amazing 
-              benefits, such as promoting better sleep, reducing crying, and strengthening the bond between parent 
-              and child.<br/> *Sessions only available during the day unless arranged in advance.</p>
-              <div class="col-lg-4 col-md-5 col-sm-12 mobile-image">
-            <img src={Baby} alt="Baby massage" className="baby-image"/>
-            </div>
-              </div>
-      </div>
+    
       <div class="row treatment-item">
             <div class="col-lg-8 col-md-7 col-sm-12">
             <h4>Pregnancy Massage</h4>
@@ -177,6 +158,26 @@ export default function Treatments() {
                 <img src={Labour} alt="Pregnant woman" className="labour-image"/>
                 </div>
           </div>
+          <div class="row treatment-item">
+        <div class="col-lg-4 col-md-5 col-sm-12 no-mobile-image">
+            <img src={Baby} alt="Baby massage" className="baby-image"/>
+            </div>
+            <div class="col-lg-8 col-md-7 col-sm-12">
+            <h4>Baby Massage</h4>
+            <div class="price">
+              <p>4 private weekly 1 hour sessions - £100*<br/>(Group sessions are possible, up to 6 mothers and babies at a time.)</p>
+            </div>
+            <p>If you’ve recently experienced the joy of having a baby, there will undoubtedly be a lot of 
+              ideas running through your head as to how to minimise the stress and pain your child experiences 
+              in their first few months of life. One of the most effective techniques for improving the health 
+              of your child is baby massage. In fact, learning special techniques on your infant can have amazing 
+              benefits, such as promoting better sleep, reducing crying, and strengthening the bond between parent 
+              and child.<br/> *Sessions only available during the day unless arranged in advance.</p>
+              <div class="col-lg-4 col-md-5 col-sm-12 mobile-image">
+            <img src={Baby} alt="Baby massage" className="baby-image"/>
+            </div>
+              </div>
+      </div>
       </div>
       </div>
     

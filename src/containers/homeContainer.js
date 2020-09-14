@@ -24,7 +24,7 @@ export default function HomeContainer() {
             <div class="col-sm-12 col-md-4">
                 <HomeImageQuote image={EssentialOils} alt="Bottles of essential oils with flowers."
                 text="'Just had the most amazing pregnancy massage ever! Laura is so nice and I felt so at ease, the most relaxed I’ve felt in a while.' - Lauren H."/>
-                <HomeMassageInfo text="Our professional treatments are good value, you don't have to spend a fortune to relax and feel good."/>
+                <HomeMassageInfo text="We provide everything for the perfect treatment. Sit back and let us look after you."/>
             </div>
         </div>
         <div class="row">

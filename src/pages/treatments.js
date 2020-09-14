@@ -21,7 +21,7 @@ export default function Treatments() {
 
       <div class="menu-container">
         <div class="col-md-12 menu-column-header heal-relax-treatments">
-          <div class="row treatment-item">
+          <div class="row treatment-item" id="swedish-massage">
             <div class="col-lg-8 col-md-7 col-sm-12">
             <h4>Swedish Massage</h4>
             <div class="price">
@@ -37,7 +37,7 @@ export default function Treatments() {
             <img src={SwedishMassage} alt="Swedish massage" className="swedish-image"/>
             </div>
           </div>
-          <div class=" row treatment-item">
+          <div class=" row treatment-item" id="aromatherapy">
             <div class="col-lg-2 col-md-3 col-sm-12 image-container no-mobile-image">
               <img src={Aromatherapy} alt="Aromatherapy massage" className="aromatherapy-image"/>
             </div>
@@ -56,7 +56,7 @@ export default function Treatments() {
               <img src={Aromatherapy} alt="Aromatherapy massage" className="aromatherapy-image"/>
             </div>
           </div>
-          <div class="row treatment-item">
+          <div class="row treatment-item" id="reflexology">
             <div class="col-lg-8 col-md-7 col-sm-12">
               <h4>Reflexology</h4>
               <div class="price">
@@ -71,7 +71,7 @@ export default function Treatments() {
                 <img src={Reflexology} alt="Reflexology" class="reflexology-image"/>
               </div>
             </div>
-            <div class="row treatment-item">
+            <div class="row treatment-item" id="reiki">
               <div class="col-lg-4 col-md-5 col-sm-12 no-mobile-image">
                 <img src={Reiki} alt="Reiki" class="reiki-image"/>
               </div>
@@ -89,7 +89,7 @@ export default function Treatments() {
                 <img src={Reiki} alt="Reiki" class="reiki-image mobile-image"/>
               </div>
               </div>
-              <div class="row treatment-item">
+              <div class="row treatment-item" id="indian-head-massage">
               <div class="col-lg-9 col-md-9 col-sm-12">
               <h4>Indian Head Massage</h4>
               <div class="price">
@@ -107,7 +107,7 @@ export default function Treatments() {
         </div>
       <div class="col-md-12 menu-column-header mother-baby-treatments">
     
-      <div class="row treatment-item">
+      <div class="row treatment-item" id="pregnancy-massage">
             <div class="col-lg-8 col-md-7 col-sm-12">
             <h4>Pregnancy Massage</h4>
             <div class="price">
@@ -124,7 +124,7 @@ export default function Treatments() {
               <img src={Pregnancy} alt="Pregnant woman" className="pregnancy-image"/>
               </div>
           </div>
-          <div class="row treatment-item">
+          <div class="row treatment-item" id="maternity-reflexology">
             <div class="col-lg-4 col-md-5 col-sm-12 no-mobile-image">
             <img src={PregnancyReflexology} alt="Maternity reflexology massage" className="maternity-reflexology-image"/>
             </div>
@@ -143,7 +143,7 @@ export default function Treatments() {
             </div>
               </div>
           </div>
-          <div class="row treatment-item">
+          <div class="row treatment-item" id="labour">
             <div class="col-md-9 col-sm-12">
             <h4>Labour</h4>
             <div class="price">
@@ -158,7 +158,7 @@ export default function Treatments() {
                 <img src={Labour} alt="Pregnant woman" className="labour-image"/>
                 </div>
           </div>
-          <div class="row treatment-item">
+          <div class="row treatment-item" id="baby-massage">
         <div class="col-lg-4 col-md-5 col-sm-12 no-mobile-image">
             <img src={Baby} alt="Baby massage" className="baby-image"/>
             </div>

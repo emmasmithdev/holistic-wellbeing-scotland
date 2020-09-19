@@ -277,6 +277,53 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+/* Pamper Parties Page  */
+.pamper-party-banner-image {
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+.events-heading {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-size: 80px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 30px;
+}
+.pamper-polaroid-portrait {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+.left-polaroid {
+    margin-left: 50px;
+}
+.pamper-party-text {
+    font-family: 'Playfair Display', serif;
+    padding: 40px 0;
+    text-align: center;
+    font-size: 20px;
+    color: #5e6664;
+}
+.contact-link {
+    color: #920ed3;
+}
+.pamper-polaroid-landscape {
+    width: 200px;
+}
+.pamper-polaroid-small {
+    width: 100px;
+    margin: 20px 60px;
+}
+#oil-pestle {
+    width: 150px;
+}
  
 /* Responsive behaviour for smaller laptops */
 @media all and (max-width: 1320px){ 
@@ -333,6 +380,10 @@ footer {
         width: 150px;
         height: 220px;
     }
+    .events-heading {
+        font-size: 60px;
+        left: 28%;
+    }
 }
 /* Responsive behaviour for tablets */
 @media all and (max-width: 1023px){
@@ -355,6 +406,21 @@ footer {
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    .events-heading {
+        font-size: 40px;
+        left: 31%;
+    }
+    .pamper-party-text {
+        padding: 20px 50px !important;
+    }
+    .pamper-polaroid-portrait {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-left: 50px;
+    }
+    .polaroid-container {
+        padding-left: 130px !important;
     }
 }
 
@@ -417,5 +483,18 @@ footer {
     .mobile-image {
         display: block;
     }
-   
+    .pamper-polaroid-portrait {
+        display: none;
+    }
+    .pamper-party-banner-image {
+        height: 250px;
+    }
+    .events-heading {
+        top: 20%;
+        left: 15%;
+        background-color: rgba(31, 35, 34, 0.6);
+    }
+    .pamper-polaroid-small {
+        margin: 20px;
+    }
 }

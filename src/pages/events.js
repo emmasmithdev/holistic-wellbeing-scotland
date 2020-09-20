@@ -37,8 +37,8 @@ export default function Events() {
           <a href="/contact" className="contact-link">Contact Laura for more information</a>
         </div>
         <div class="col-lg-3 col-md-12 polaroid-container">
-          <img src={PamperPolaroid3} alt = "Two girls on the sofa drinking wine and using face cream" className="pamper-polaroid-portrait"/>
-          <img src={PamperPolaroid4} alt = "A girl with a face mask on" className="pamper-polaroid-portrait"/>
+          <img src={PamperPolaroid3} alt = "Two girls on the sofa drinking wine and using face cream" className="pamper-polaroid-portrait bottom-polaroid"/>
+          <img src={PamperPolaroid4} alt = "A girl with a face mask on" className="pamper-polaroid-portrait bottom-polaroid"/>
         </div>
     </div>
     </Layout>

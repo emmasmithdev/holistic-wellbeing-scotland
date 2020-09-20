@@ -420,7 +420,10 @@ footer {
         margin-left: 50px;
     }
     .polaroid-container {
-        padding-left: 130px !important;
+        padding-left: 130px;
+    }
+    .left-polaroid, .bottom-polaroid {
+        margin-left: 130px;
     }
 }
 
@@ -484,7 +487,7 @@ footer {
         display: block;
     }
     .pamper-polaroid-portrait {
-        display: none;
+        width: 100px;
     }
     .pamper-party-banner-image {
         height: 250px;
@@ -492,9 +495,15 @@ footer {
     .events-heading {
         top: 20%;
         left: 15%;
-        background-color: rgba(31, 35, 34, 0.6);
+        background-color: rgba(31, 35, 34, 0.5);
     }
     .pamper-polaroid-small {
         margin: 20px;
+    }
+    .polaroid-container {
+        padding-left: 45px !important;
+    }
+    .left-polaroid, .bottom-polaroid {
+        margin-left: 50px;
     }
 }

@@ -34,6 +34,7 @@ export default function Layout({ children }) {
         <Nav.Link href="/treatments">Treatments</Nav.Link>
         <NavDropdown title="Events" id="basic-nav-dropdown">
           <NavDropdown.Item href="/events">Pamper Parties</NavDropdown.Item>
+          <NavDropdown.Item href="/specialEvents">Special Events</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="Corporate" id="basic-nav-dropdown">
           <NavDropdown.Item href="/corporate">Workplace Massage</NavDropdown.Item>

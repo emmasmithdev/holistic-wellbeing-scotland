@@ -383,6 +383,54 @@ footer {
 .mobile-corporate-item {
     display: none;
 }
+
+/* Special Events Page */
+.events-banner-image {
+    height: 21.875rem;
+    width: 100%;
+    position: relative;
+}
+.events-heading {
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 1.875rem;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.events-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.events-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.75rem;
+    padding: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.events-item-pics {
+    display: flex;
+    width: 50%;
+}
+.events-item-pics img {
+    width: 45%;
+    padding: 1rem;
+    height: 31.25rem;
+    margin: auto;
+    display: block;
+}
+.events-item p {
+    border: 2px solid #920ed3;
+    padding: 1rem;
+    margin: 1rem;
+}
  
 /*Responsive behaviour for smaller laptops*/
 @media all and (max-width: 1320px){ 
@@ -452,6 +500,13 @@ footer {
     }
     .corporate-info {
         font-size: .9rem;
+    }
+    .events-item {
+        font-size: 1.25rem;
+    }
+    .events-item-pics img {
+        height: 26rem;
+        padding: .5rem;
     }
 }
 
@@ -523,6 +578,15 @@ footer {
     }
     .corporate-info-large {
         font-size: 1.25rem;
+    }
+    .events-item {
+        font-size: .8rem;
+    }
+    .events-item-pics img {
+        height: 18rem;
+    }
+    .events-item p {
+        margin: .5rem;
     }
 }
 
@@ -622,6 +686,24 @@ footer {
     }
     .mobile-corporate-item {
         display: flex;
+    }
+    .events-item-pics {
+        flex-direction: column;
+    }
+    .events-item-pics img {
+        width: 90%;
+        height: 16rem;
+        margin: 0 auto 0 auto;
+    }
+    .events-item {
+        font-size: .75rem;
+        padding: 1rem;
+    }
+    .events-banner-image {
+        height: 15rem;
+    }
+    .events-heading {
+        top: 17%;
     }
 }
 

@@ -691,19 +691,22 @@ footer {
         flex-direction: column;
     }
     .events-item-pics img {
-        width: 90%;
-        height: 16rem;
+        width: 70%;
+        height: 13.5rem;
         margin: 0 auto 0 auto;
     }
     .events-item {
         font-size: .75rem;
-        padding: 1rem;
+        padding: .5rem;
     }
     .events-banner-image {
         height: 15rem;
     }
     .events-heading {
         top: 17%;
+    }
+    .events-item p {
+        padding: 1rem .5rem;
     }
 }
 
@@ -718,6 +721,9 @@ footer {
     }
     .corporate-heading {
         left: 12%;
+    }
+    .events-item p {
+        padding: .5rem;
     }
 }
 

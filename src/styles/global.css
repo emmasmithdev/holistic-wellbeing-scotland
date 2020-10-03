@@ -321,6 +321,68 @@ footer {
 #oil-pestle {
     width: 9.375rem;
 }
+
+/* Corporate Page */
+.corporate-banner-image {
+    height: 21.875rem;
+    width: 100%;
+    position: relative;
+}
+.corporate-heading {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    color: white;
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 1.875rem;
+    background-color: rgba(126, 114, 194, 0.6)
+}
+.corporate-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.corporate-item {
+    width: 25%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.corporate-item-blue {
+    background-color: rgba(126, 114, 194, 0.6);
+    padding: 2rem;
+    height: 16.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.corporate-item-green {
+    background-color: rgba(160, 207, 103, 0.5);
+    padding: 2rem;
+    height: 16.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.corporate-info {
+    font-size: 1rem;
+    background-color: white;
+    padding: .5rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+.corporate-info-large {
+    font-size: 1.25rem;
+}
+.corporate-small-image {
+    width: 100%;
+}
+.mobile-corporate-item {
+    display: none;
+}
  
 /*Responsive behaviour for smaller laptops*/
 @media all and (max-width: 1320px){ 
@@ -384,12 +446,19 @@ footer {
     .pamper-polaroid-portrait {
         width: 12.5rem;
     }
+    .corporate-heading {
+        font-size: 3.75rem;
+        left: 23%;
+    }
+    .corporate-info {
+        font-size: .9rem;
+    }
 }
 
 /* Responsive behaviour for tablets */
 @media all and (max-width: 1023px){
     .large-logo, .large-massage-image {
-        height: 10rem;
+        height: 11rem;
     }
     .home-quote {
         font-size: .65rem;
@@ -438,6 +507,22 @@ footer {
     }
     #girls-walking, .pamper-polaroid-small {
         margin: 1.25rem;
+    }
+    .corporate-banner-image {
+        height: 20rem;
+    }
+    .corporate-heading {
+        font-size: 2.5rem;
+        left: 25%;
+    }
+    .corporate-item {
+        width: 50%;
+    }
+    .corporate-info {
+        font-size: 1rem;
+    }
+    .corporate-info-large {
+        font-size: 1.25rem;
     }
 }
 
@@ -524,6 +609,20 @@ footer {
     .pamper-party-text {
         padding: 0 1.875rem;
     }
+    .corporate-banner-image {
+        height: 13rem;
+    }
+    .corporate-heading {
+        font-size: 1.75rem;
+        left: 15%;
+        top: 17%;
+    }
+    .corporate-item {
+        width: 100%;
+    }
+    .mobile-corporate-item {
+        display: flex;
+    }
 }
 
 /* Responsive behaviour for medium mobiles */
@@ -534,6 +633,9 @@ footer {
     }
     .pamper-party-text {
         margin: 1.25rem;
+    }
+    .corporate-heading {
+        left: 12%;
     }
 }
 
@@ -551,5 +653,9 @@ footer {
     }
     .events-heading {
         font-size: 1.875rem;
+    }
+    .corporate-heading {
+        left: 15%;
+        font-size: 1.25rem;
     }
 }

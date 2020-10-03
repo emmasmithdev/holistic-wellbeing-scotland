@@ -1,14 +1,11 @@
 import React from "react"
 
-export default function GreenStripe() {
+export default function GreenStripe(props) {
     return (
         <div class="row green-stripe-container">
         <div class="green-stripe">
-            <p className="green-stripe-info">Welcome!</p>
-            <p className="green-stripe-info">
-            Our Complementary Therapists are fully insured, highly qualified and 
-            committed to providing the very best professional treatments.
-            </p>
+            <p className="green-stripe-info">{props.firstLine}</p>
+            <p className="green-stripe-info">{props.secondLine}</p>
         </div>
         </div>
     )}

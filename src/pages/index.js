@@ -11,7 +11,7 @@ export default function Home() {
   return (
    <Layout>
      <HomeImages/>
-     <GreenStripe/>
+     <GreenStripe firstLine={"Welcome!"} secondLine={"Our Complementary Therapists are fully insured, highly qualified and committed to providing the very best professional treatments."}/>
      <HomeContainer/>
      <GetInTouch/>
    </Layout>

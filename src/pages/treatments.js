@@ -111,7 +111,7 @@ export default function Treatments() {
             <div class="col-lg-8 col-md-7 col-sm-12">
             <h4>Pregnancy Massage</h4>
             <div class="price">
-              <p>1 hour - £45 <span class="price-span">1 hour 30 mins - £65</span></p>
+              <p>1 hour - £50 <span class="price-span">1 hour 30 mins - £65</span></p>
             </div>
             <p>There are two types of pregnancy massage: prenatal, which you receive during your pregnancy, and postnatal, 
               which you have within the first few weeks after giving birth. Prenatal massage is a great way to get rid of aches, 
@@ -131,7 +131,7 @@ export default function Treatments() {
             <div class="col-lg-8 col-md-7 col-sm-12">
             <h4>Maternity Reflexology</h4>
             <div class="price">
-              <p>1 hour - £45 <span class="price-span">1 hour 30 mins - £65</span></p>
+              <p>1 hour - £50 <span class="price-span">1 hour 30 mins - £65</span></p>
             </div>
             <p>Maternity Reflexology is aimed specifically at women during pre-conception, pregnancy, labour and the post-natal period.  
               It can also be used to help couples experiencing fertility challenges. During your pregnancy, your body will go through 

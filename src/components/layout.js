@@ -47,10 +47,10 @@ export default function Layout({ children }) {
         </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>
       </Nav>
-      <Form inline>
+      {/* <Form inline>
         <FormControl type="text" placeholder="Search" className="mr-sm-2" />
         <Button class="search-button" variant="outline-success">Search</Button>
-      </Form>
+      </Form> */}
     </Navbar.Collapse>
   </Navbar>
   {children}

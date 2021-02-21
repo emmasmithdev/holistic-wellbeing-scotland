@@ -513,6 +513,29 @@ footer {
     border: 2px solid #9c7ebc;
 }
 
+/* Contact Page */
+.contact-container {
+    margin: 5rem auto;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    width: 40%;
+    background-color: #9c7ebc;
+    border-radius: 3px;
+}
+.contact-container h2 {
+    color: white;
+}
+.contact-container input, .contact-container textarea {
+    width: 100%;
+}
+.contact-container textarea {
+    height: 200px;
+}
+.contact-container button {
+    margin-top: 2rem;
+}
+
 /* Responsive behaviour for extra-wide laptops */
 @media all and (min-width: 2560px){ 
     .large-massage-image, .large-logo {
@@ -636,6 +659,9 @@ footer {
         width: 15rem;
         height: 10rem;
     }
+    .contact-container {
+        width: 50%;
+    }
 }
 
 /* Responsive behaviour for tablets */
@@ -724,6 +750,9 @@ footer {
     .film-image {
         width: 10rem;
         height: 7rem;
+    }
+    .contact-container {
+        width: 60%;
     }
 }
 
@@ -870,6 +899,9 @@ footer {
     }
     .about-item {
         padding: 0;
+    }
+    .contact-container {
+        width: 90%;
     }
 }
 

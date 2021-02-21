@@ -503,6 +503,22 @@ footer {
     padding: 0 3rem;
 }
 
+/* Gallery Page */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    justify-content: center;
+} 
+.flex-item {
+    padding: 2rem;
+    border: 1px solid grey;
+    margin: 1rem;
+}
+.gallery-image {
+    width: 200px;
+}
+
 /* Responsive behaviour for extra-wide laptops */
 @media all and (min-width: 2560px){ 
     .large-massage-image, .large-logo {

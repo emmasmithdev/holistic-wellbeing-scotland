@@ -27,17 +27,6 @@ export default function HomeContainer() {
                 <HomeMassageInfo text="We provide the finest Egyptian cotton linen and homemade aromatherapy balm. Sit back and let us look after you."/>
             </div>
         </div>
-        <div class="row">
-        <div class="col-sm-12 col-md-4">
-            <FindOutMoreButton href="/treatments"/>
-        </div>
-        <div class="col-sm-12 col-md-4 hide-on-mobile">
-            <FindOutMoreButton href="/treatments"/>
-        </div>
-        <div class="col-sm-12 col-md-4 hide-on-mobile">
-            <FindOutMoreButton href="/treatments"/>
-        </div>
-        </div>
         </div>
         </>
     )}

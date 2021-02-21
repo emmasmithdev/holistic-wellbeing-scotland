@@ -277,6 +277,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
+.menu-contact {
+    display: block;
+    margin: 1rem auto;
+    text-align: center;
+}
 /* Pamper Parties Page  */
 .pamper-party-banner-image {
     height: 21.875rem;
@@ -296,13 +301,13 @@ footer {
 }
 .pamper-polaroid-portrait {
     width: 18.75rem;
-    margin: 6.25rem 1.25rem 6.25rem 1.25rem;
+    margin: 1.25rem;
 }
 #girls-walking {
     margin-bottom: .625rem;
 }
 .pamper-party-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poiret One', cursive;
     padding: 2.5rem 0;
     text-align: center;
     font-size: 1.25rem;
@@ -410,7 +415,7 @@ footer {
     flex-direction: column;
     width: 50%;
     font-family: 'Poiret One', cursive;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 2rem;
     justify-content: center;
     text-align: center;

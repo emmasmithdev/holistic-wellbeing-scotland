@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout" 
+import GreenStripe from "../components/greenStripe";
 import GreenTowels from "../images/greenerTowels.jpg";
 import SwedishMassage from "../images/swedishMassage.jpg";
 import Aromatherapy from "../images/massageAromatherapy.jpg";
@@ -18,7 +19,7 @@ export default function Treatments() {
         <img src={GreenTowels} alt="Green towels rolled up decoratively" className="green-towels-image"/>
         <h2 class="treatments-heading">Discover Our Treatments...</h2>
       </div>
-
+      <GreenStripe firstLine={"Treat yourself and float away with a relaxing or rejuvenating treatment."}/>
       <div class="menu-container">
         <div class="col-md-12 menu-column-header heal-relax-treatments">
           <div class="row treatment-item" id="swedish-massage">
@@ -180,7 +181,7 @@ export default function Treatments() {
       </div>
       </div>
       </div>
-    
+      <p class='menu-contact'><a href="/contact" className="contact-link">Contact Laura</a> for more information.</p>
     </Layout>
   )
 }

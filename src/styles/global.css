@@ -431,6 +431,85 @@ footer {
     padding: 1rem;
     margin: 1rem;
 }
+
+/* Film and TV Page */
+.film-banner-image {
+    height: 21.875rem;
+    width: 100%;
+    position: relative;
+}
+.film-heading {
+    position: absolute;
+    top: 22%;
+    left: 14%;
+    color:#FE0164;
+    font-size: 5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    padding: 1.875rem;
+    margin: auto;
+    background-color: rgba(254, 1, 100, 0.1);
+}
+.film-container {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+.film-image {
+    width: 25rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+.film-text {
+    width: 38rem;
+    font-size: 1.25rem;
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+.film-subheading {
+    color: #FE0164;
+}
+
+/* Responsive behaviour for extra-wide laptops */
+@media all and (min-width: 2560px){ 
+    .large-massage-image, .large-logo {
+        height: 22rem;
+    }
+    .home-image-small {
+        width: 70%;
+    }
+    .treatments-heading {
+        top: 15%;
+        left: 30%;
+    }
+    .events-heading {
+        top: 18%;
+        left: 39%;
+    }
+    .events-item-pics img {
+        width: 35%;
+    }
+    .corporate-heading {
+        top: 18%;
+        left: 36%;
+    }
+    .corporate-small-image {
+        width: 80%;
+        height: 200px;
+    }
+    .film-heading {
+        left: 30%;
+        top: 18%;
+    }
+    .film-container {
+        justify-content: space-evenly;
+    }
+    .film-text {
+        font-size: 1.5rem;
+    }
+}
  
 /*Responsive behaviour for smaller laptops*/
 @media all and (max-width: 1320px){ 
@@ -507,6 +586,14 @@ footer {
     .events-item-pics img {
         height: 26rem;
         padding: .5rem;
+    }
+    .film-heading {
+        font-size: 3.5rem;
+        left: 13%;
+    }
+    .film-image {
+        width: 15rem;
+        height: 10rem;
     }
 }
 
@@ -587,6 +674,15 @@ footer {
     }
     .events-item p {
         margin: .5rem;
+    }
+    .film-heading {
+        font-size: 2.5rem;
+        left: 14%;
+        top: 20%;
+    }
+    .film-image {
+        width: 10rem;
+        height: 7rem;
     }
 }
 
@@ -708,6 +804,29 @@ footer {
     .events-item p {
         padding: 1rem .5rem;
     }
+    .film-banner-image {
+        height: 15rem;
+    }
+    .film-heading {
+        font-size: 1.5rem;
+        left: 8%;
+        top: 20%;
+    }
+    .film-container {
+        flex-direction: column-reverse;
+    }
+    .film-image {
+        width: 80%;
+        height: 10rem;
+        margin: auto;
+        display: block;
+    }
+    .film-text {
+        width: 100%;
+    }
+    .film-subheading {
+        font-size: 1.5rem;
+    }
 }
 
 /* Responsive behaviour for medium mobiles */
@@ -724,6 +843,9 @@ footer {
     }
     .events-item p {
         padding: .5rem;
+    }
+    .film-heading {
+        font-size: 1.25rem;
     }
 }
 
@@ -745,5 +867,8 @@ footer {
     .corporate-heading {
         left: 15%;
         font-size: 1.25rem;
+    }
+    .film-heading {
+        font-size: 1rem;
     }
 }

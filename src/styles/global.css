@@ -75,41 +75,12 @@ footer {
     margin: auto;
     border-radius: 50%;
   }
-  
-  .home-image-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: white;
-    overflow: hidden;
-    width: 100%;
-    height: 0;
-    transition: .5s ease;
-  }
-  
-  .home-image-container:hover .home-image-overlay {
-    height: 100%;
-  }
-  
-  .home-quote {
-    color: #9c7ebc;
-    font-size: 1.25rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: 'Poiret One', cursive;
-    font-weight: bold;
-  }
   .home-massage-info {
       padding: 1.25rem;
       text-align: center;
       font-family: 'Poiret One', cursive;
       font-size: 1.25rem;
+      font-weight: bold;
   }
   .find-out-more {
       margin: 0.625rem auto 1.25rem auto;
@@ -202,6 +173,7 @@ footer {
  .heal-relax-treatments {
      background-color: rgba(225, 208, 244, 0.5);
      font-family: 'Poiret One', cursive;
+     font-weight: bold;
      font-size: 1.125rem;
      padding: 1.25rem 2.5rem;
      margin-top: 5rem;
@@ -211,8 +183,9 @@ footer {
      background-color: rgba(160, 207, 103, 0.5);
      border: 1px solid black;
      margin-top: 2.5rem;
-     font-size: 1.125;
+     font-size: 1.125rem;
      margin-bottom: 2.5rem;
+     font-weight: bold;
  }
  .menu-column-header {
     font-family: 'Poiret One', cursive;
@@ -311,6 +284,7 @@ footer {
     padding: 2.5rem 0;
     text-align: center;
     font-size: 1.25rem;
+    font-weight: bold;
     color: #5e6664;
 }
 .contact-link {
@@ -348,6 +322,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    font-weight: bold;
 }
 .corporate-item {
     width: 25%;
@@ -416,6 +391,7 @@ footer {
     width: 50%;
     font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
+    font-weight: bold;
     padding: 2rem;
     justify-content: center;
     text-align: center;
@@ -472,6 +448,7 @@ footer {
     padding: 1rem;
     text-align: center;
     font-family: 'Poiret One', cursive;
+    font-weight: bold;
 }
 .film-subheading {
     color: #FE0164;
@@ -490,6 +467,7 @@ footer {
     font-size: 1.25rem;
     font-family: 'Poiret One', cursive;
     margin: 1rem 0;
+    font-weight: bold;
 }
 .laura-image {
     display: block;

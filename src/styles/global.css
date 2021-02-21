@@ -483,6 +483,7 @@ footer {
     display: block;
     text-align: center;
     color: #A0CF67;
+    padding: 0 2rem;
 }
 .about-item {
     padding: 5rem;
@@ -517,6 +518,21 @@ footer {
 }
 .gallery-image {
     width: 200px;
+}
+
+/* Testimonial Page */
+.testimonial, .name {
+    width: 300px;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.name {
+    color: #9c7ebc;
+}
+.test {
+    border-radius: 5px;
+    border: 2px solid #9c7ebc;
 }
 
 /* Responsive behaviour for extra-wide laptops */

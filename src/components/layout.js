@@ -41,7 +41,7 @@ export default function Layout({ children }) {
           <NavDropdown.Item href="/filmAndTV">Film and TV</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="About" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/about">About Laura</NavDropdown.Item>
+          <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
           <NavDropdown.Item href="/gallery">Gallery</NavDropdown.Item>
           <NavDropdown.Item href="/testimonials">Testimonials</NavDropdown.Item>
         </NavDropdown>

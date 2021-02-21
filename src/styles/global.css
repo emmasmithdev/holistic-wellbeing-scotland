@@ -477,6 +477,32 @@ footer {
     color: #FE0164;
 }
 
+/* About page */
+.about-heading {
+    margin: 2rem auto;
+    display: block;
+    text-align: center;
+    color: #A0CF67;
+}
+.about-item {
+    padding: 5rem;
+    font-size: 1.25rem;
+    font-family: 'Poiret One', cursive;
+    margin: 1rem 0;
+}
+.laura-image {
+    display: block;
+    margin: auto;
+    border: 2px solid grey;
+}
+.left {
+    border-right: 1px solid grey;
+}
+.laura-info {
+    margin: auto;
+    padding: 0 3rem;
+}
+
 /* Responsive behaviour for extra-wide laptops */
 @media all and (min-width: 2560px){ 
     .large-massage-image, .large-logo {
@@ -831,6 +857,9 @@ footer {
     }
     .film-subheading {
         font-size: 1.5rem;
+    }
+    .about-item {
+        padding: 0;
     }
 }
 

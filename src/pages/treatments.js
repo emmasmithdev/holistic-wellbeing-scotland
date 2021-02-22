@@ -96,7 +96,7 @@ export default function Treatments() {
               <div class="price">
               <p>1 hour - £45 <span class="price-span">1 hour 30 mins - £65</span></p>
               </div>
-              <p>Indian Head Massage originates from India and is over 5000 years old. It is believed to not only relieve the person;s physical ailments 
+              <p>Indian Head Massage originates from India and is over 5000 years old. It is believed to not only relieve the person's physical ailments 
                   but promote emotional wellness too. Indian Head is the perfect treatment for those who work at a desk or suffer from tension headaches/migraine as 
                   it is a thorough treatment that solely focuses on the upper back, neck and head. Traditionally this therapy is done in a chair, sitting upright however 
                   we have adapted this treatment for a massage bed, which allows the client to relax fully.</p>

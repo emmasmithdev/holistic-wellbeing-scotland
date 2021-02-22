@@ -181,7 +181,7 @@ export default function Treatments() {
       </div>
       </div>
       </div>
-      <p class='menu-contact'><a href="/contact" className="contact-link">Contact Laura</a> for more information.</p>
+      <p class='menu-contact'><a href="/contact" className="contact-link">Contact us</a> for more information.</p>
     </Layout>
   )
 }

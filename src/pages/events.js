@@ -31,7 +31,7 @@ export default function Events() {
           <img src={Prosecco} alt = "Hen party with balloons" className="pamper-polaroid-small"/>
           <p>Our pamper packages & treatments, range from massages to facials, and we will provide some fizz too!</p>
           <br/>
-          <p><a href="/contact" className="contact-link">Contact Laura</a> for more information.</p>
+          <p><a href="/contact" className="contact-link">Contact us</a> for more information.</p>
         </div>
         <div class="col-lg-3 col-md-12 polaroid-container">
           <img src={PamperPolaroid3} alt = "Women doing cheers with drinks" className="pamper-polaroid-portrait bottom-polaroid"/>

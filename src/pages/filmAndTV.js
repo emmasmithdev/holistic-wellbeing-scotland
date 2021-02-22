@@ -25,7 +25,7 @@ export default function FilmAndTV() {
             quiet corner where the therapist can easily treat cast and crew. </p>
             <p>At post-production celebrations, massage therapy can be an excellent way to reward your team for their 
               effort and hard work after months of filming.</p>
-              <p><a href="/contact" className="contact-link">Contact Laura</a> for more information.</p>
+              <p><a href="/contact" className="contact-link">Contact us</a> for more information.</p>
         </div>
         <div class="film-image">
           <img src={FilmSet} alt="Film set" className="film-image"/>

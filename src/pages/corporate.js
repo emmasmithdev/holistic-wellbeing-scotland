@@ -81,7 +81,7 @@ export default function Corporate() {
         </div>
         <div class="corporate-item">
         <div class="corporate-item-blue">
-          <div class="corporate-info corporate-info-large">All treatments will leave your staff feeling rejuvenated and uplifted! <a href="/contact" className="contact-link">Contact Laura</a> for more information.</div>
+          <div class="corporate-info corporate-info-large">All treatments will leave your staff feeling rejuvenated and uplifted! <a href="/contact" className="contact-link">Contact us</a> for more information.</div>
         </div>
         </div>
         <div class="corporate-item">

@@ -18,7 +18,7 @@ export default function specialEvents() {
               <p>Want to make a big splash? Have all your guests raving about your event? 
           Then you need us to provide that missing ingredient.</p>
           <p>We provide that added luxury and indulgence needed to give your guests that very important good impression.</p> 
-          <p>Perfect for charity events, annual conferences, product launches, wrap parties and much more. <a href="/contact" className="contact-link">Contact Laura</a> for more information.</p></div>
+          <p>Perfect for charity events, annual conferences, product launches, wrap parties and much more. <a href="/contact" className="contact-link">Contact us</a> for more information.</p></div>
           <div class="events-item-pics">
           <img src={HeadMassage} alt="Head massage" className="events-image"/>
           <img src={LadyCheers} alt="Lady dressed up with a drink" className="events-image"/>

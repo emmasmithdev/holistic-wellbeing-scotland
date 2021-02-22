@@ -30,7 +30,7 @@ export default function Testimonials() {
          </div>
          <div class="flex-item test">
           <p class="testimonial">"Laura provided some much needed care to our members at our annual conference.  She provided a friendly and professional service and we look forward to working with her again in the future."</p>
-          <p class="name">- Royal Blind.</p>
+          <p class="name">- Royal Blind</p>
          </div>
          <div class="flex-item test">
           <p class="testimonial">"Fantastic pregnancy massage and reflexology. Laura eased all my aches and pains and I slept better than I have in months." </p>
@@ -43,6 +43,11 @@ export default function Testimonials() {
          <div class="flex-item test">
           <p class="testimonial">"What an experience! After having a sports back injury few months ago and explained to Laura what happend she found and eased every nook and cranny! The differance was amazing! Every knot and bit of tension eased in one session!" </p>
           <p class="name">- Craig M.</p>
+         </div>  
+         <div class="flex-item test">
+          <p class="testimonial">"Laura has provided treatments to our elderly ladies several times now and she is just wonderful.  She always takes the time to find the most beneficial treatment for them - all with a smile. 
+          All our members report an improvement in their aches and pains after seeing her. I would definitely recommend her services." </p>
+          <p class="name">- Maryhill Parish Church</p>
          </div>   
     </div>
     </Layout>

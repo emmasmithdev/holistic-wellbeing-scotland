@@ -12,15 +12,9 @@ export default function Gallery() {
   return (
     <Layout>
        <div class="col-lg-12">
-        <h2 class="about-heading">Gallery</h2>
+        <h2 class="about-heading">Corporate clients we have provided services for in the past:</h2>
       </div>
        <div class="flex-container">
-         <div class="flex-item">
-         <img src={Gallery3} alt="Gallery Image" className="gallery-image"/>
-         </div>
-         <div class="flex-item">
-         <img src={Gallery4} alt="Gallery Image" className="gallery-image"/>
-         </div>
          <div class="flex-item">
          <img src={Gallery2} alt="Gallery Image" className="gallery-image"/>
          </div>

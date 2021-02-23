@@ -39,10 +39,10 @@ export default function Layout({ children }) {
         <NavDropdown title="Corporate" id="basic-nav-dropdown">
           <NavDropdown.Item href="/corporate">Workplace Massage</NavDropdown.Item>
           <NavDropdown.Item href="/filmAndTV">Film and TV</NavDropdown.Item>
+          <NavDropdown.Item href="/gallery">Corporate Clients</NavDropdown.Item>
         </NavDropdown>
         <NavDropdown title="About" id="basic-nav-dropdown">
           <NavDropdown.Item href="/about">About Us</NavDropdown.Item>
-          <NavDropdown.Item href="/gallery">Gallery</NavDropdown.Item>
           <NavDropdown.Item href="/testimonials">Testimonials</NavDropdown.Item>
         </NavDropdown>
         <Nav.Link href="/contact">Contact</Nav.Link>

@@ -16,9 +16,9 @@ export default function About() {
     </div>
     <div class="col-md-6 col-sm-12 about-item">
       <div class="laura-info">
-        <p>Laura Lawson is an experienced Complementary Therapist with over 10 years experience in the health and wellness sector.
-      She takes pride in providing the very best quality treatments for all her clients.
-      Her extraordinary commitment to outstanding quality has had her recognized by 'Holistic Scotland Magazine' as nominated Therapist of the Year.</p>
+        <p>Laura Lawson is the head therapist and owner of Holistic Wellbeing. She is an experienced Complementary Therapist with over 10 years experience in the health and wellness sector.
+       She takes pride in providing the very best quality treatments for her clients and all of her therapists are highly trained and fully insured.</p>
+      <p>Laura's extraordinary commitment to outstanding quality has had her recognized by 'Holistic Scotland Magazine' as nominated Therapist of the Year.</p>
       <p>Laura has spent significant time building an extensive list of clients throughout the UK and in America.
       Whether it be a visit at home, in the workplace or on location, Laura has the expertise to provide a first-class service.</p>
       </div>

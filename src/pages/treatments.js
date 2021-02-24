@@ -48,7 +48,7 @@ export default function Treatments() {
               <p>1 hour - £45 <span class="price-span">1 hour 30 mins - £65</span></p>
               </div>
               <p>Aromatherapy massage is a truly indulgent type of massage with slow, soft, blissful strokes.  
-              This is the perfect massage for some who enjoys feather-like touch and isn’t keen on working 
+              This is the perfect massage for someone who enjoys feather-like touch and isn’t keen on working 
               out knots. Not only does the client enjoy blissful strokes, this type of therapy contains 
               specially blended essential oils (highly concentrated plant oils), which are selected for the client 
               to promote positive and beneficial changes in  mind, body and soul.</p>

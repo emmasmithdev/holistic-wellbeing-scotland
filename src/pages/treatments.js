@@ -31,7 +31,7 @@ export default function Treatments() {
             <p>Massage can be traced back over 5,000 years ago to ancient India, with Swedish Massage 
             being developed in the 1850s. Swedish Massage was intended to improve circulation, ease 
             muscle tension, improve flexibility and help the body to get rid of waste products. There 
-            is a variety of different strokes involved, however every treatment is tailored to the individual's needs, 
+            are a variety of different strokes involved, however every treatment is tailored to the individual's needs, 
             which makes for a truly unique experience.</p>
             </div>
             <div class="col-lg-4 col-md-5 col-sm-12">
